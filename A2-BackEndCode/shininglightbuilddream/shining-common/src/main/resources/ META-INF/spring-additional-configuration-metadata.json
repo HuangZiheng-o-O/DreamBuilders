@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "aliyun.AccessKey-ID",
+      "type": "string"
+    },
+    {
+      "name": "aliyun.AccessKey-Secret",
+      "type": "string"
+    },
+    {
+      "name": "aliyun.Region-ID",
+      "type": "string"
+    },
+    {
+      "name": "aliyun.arn",
+      "type": "string"
+    },
+    {
+      "name": "aliyun.endpoint",
+      "type": "string"
+    },
+    {
+      "name": "aliyun.timeout",
+      "type": "long"
+    }
+  ]
+}

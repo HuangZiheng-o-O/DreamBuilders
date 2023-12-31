@@ -1,0 +1,7 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: donator
+  profiles:
+    active: base

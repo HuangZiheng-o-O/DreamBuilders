@@ -1,0 +1,38 @@
+server:
+  port: 8081
+  http2:
+    enabled: true
+spring:
+  main:
+    web-application-type:
+      reactive
+  application:
+    name: shining-gateway
+  profiles:
+    active: base
+  cloud:
+    ### 网关配置
+    gateway:
+      routes:
+        - id: child
+          uri: http://localhost:8000
+          order: 1
+          predicates:
+            - Path=/child/**
+          filters:
+            - StripPrefix=1
+        - id: donator
+          uri: http://localhost:5000
+          order: 1
+          predicates:
+            - Path=/donator/**
+          filters:
+            - StripPrefix=1
+        - id: volunteer
+          uri: http://localhost:7000
+          order: 1
+          predicates:
+            - Path=/volunteer/**
+          filters:
+            - StripPrefix=1
+

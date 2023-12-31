@@ -1,0 +1,56 @@
+spring:
+  ### 数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/shining_light_build_dream
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    ### sentinel配置,地址和控制台地址
+    sentinel:
+      transport:
+        port: 9000
+        dashboard: localhost:8080
+    ### nacos配置
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+springdoc:
+  swagger-ui:
+    # 修改Swagger UI路径
+#    path: /swagger-ui.html
+    # 开启Swagger UI界面
+    enabled: true
+  api-docs:
+    # 修改api-docs路径
+    path: /v3/api-docs
+    # 开启api-docs
+    enabled: true
+  # 配置需要生成接口文档的扫描包
+#  packages-to-scan: com.macro.mall.tiny.controlle
+  # 配置需要生成接口文档的接口路径
+#  paths-to-match: /brand/**,/admin/**
+
+### mybatis-plus配置
+mybatis-plus:
+  configuration:
+    ### 下划线转驼峰
+    map-underscore-to-camel-case: true
+    ### 日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+### 阿里云oss配置
+aliyun:
+  AccessKey-ID:
+    LTAI5tP6SyMELLtxy7Ntbi8t
+  AccessKey-Secret:
+    vtns6qKAA5hFPf0ND7a3yaynySzLUs
+  Region-ID:
+    cn-beijing
+  arn:
+    acs:ram::1183158561144416:role/ramosstest
+  endpoint:
+    sts.cn-beijing.aliyuncs.com
+  timeout:
+    3600
+imgBaseUrl:
+    https://shining-dream.oss-cn-beijing.aliyuncs.com/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shining-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-children/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-children/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-donator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-donator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-volunteer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shining-server-volunteer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
